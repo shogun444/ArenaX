@@ -12,6 +12,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 soroban-sdk.workspace = true
+time-lock = { path = "../time-lock" }
 
 [dev-dependencies]
 soroban-sdk = { workspace = true, features = ["testutils"] }
